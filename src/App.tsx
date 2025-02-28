@@ -2,11 +2,12 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { Home } from "./pages/home/home";
 import { Cart } from "./pages/cart/cart";
+import { Layout } from "./components/layout/layout";
 
 
 const router = createBrowserRouter([
   {
-    element: //layout,
+    element: <Layout/>,
     children: [
       {
         path: "/",
@@ -19,6 +20,5 @@ const router = createBrowserRouter([
     ]
   }
 ]);
-
 
 export { router }
