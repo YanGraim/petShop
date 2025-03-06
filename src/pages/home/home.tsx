@@ -3,7 +3,7 @@ import { api } from "../../services/api";
 import { BsCartPlus } from "react-icons/bs";
 
 
-interface ProdutosProps {
+export interface ProdutosProps {
     id: number;
     title: string;
     description: string;
