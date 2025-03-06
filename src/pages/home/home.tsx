@@ -28,17 +28,24 @@ export function Home() {
 
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
                     {produtos.map((produto) => (
-                        <section className="w-full" key={produto.id}>
-                            <img className="w-full rounded-lg max-h-70 mb-2" src={produto.cover} alt={produto.title} />
-                            <p className="font-medium mt-1 mb-2">{produto.title}</p>
-
-                            <div className="flex items-center gap-3">
-                                <strong className="text-purple-700/80 select-none">{produto.price}</strong>
-                                <button className="bg-purple-900 p-1 rounded cursor-pointer">
-                                    <BsCartPlus size={20} color="#fff"/>
-                                </button>
-                            </div>
-                        </section>
+                        <section className="w-full flex flex-col h-full p-4" key={produto.id}>
+                        <img className="w-full rounded-lg max-h-70 mb-2" src={produto.cover} alt={produto.title} />
+                        <p className="font-medium mt-1 mb-2">{produto.title}</p>
+                        <div className="mt-auto flex items-center gap-3">
+                          <div className="w-24 float-right">
+                            <strong className="text-purple-700/80 select-none">
+                              {produto.price.toLocaleString("pt-BR", {
+                                style: "currency",
+                                currency: "BRL"
+                              })}
+                            </strong>
+                          </div>
+                          <button className="bg-purple-900 p-1 rounded cursor-pointer">
+                            <BsCartPlus size={20} color="#fff"/>
+                          </button>
+                        </div>
+                      </section>
+                      
                     ))}
                 </div>
             </main>
