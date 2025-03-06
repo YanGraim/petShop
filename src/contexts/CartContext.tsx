@@ -3,6 +3,7 @@ import { createContext, ReactNode, useState } from "react";
 
 interface CartContextData {
     cart: CartProps[];
+    cartAmount: number;
 }
 
 
@@ -25,7 +26,10 @@ export const CartContext = createContext({} as CartContextData)
 function CartProvider({children}: CartProviderProps) {
     const [cart, setCart] = useState<CartProps[]>([])
     return (
-        <CartContext.Provider value={{ cart }}>
+        <CartContext.Provider value={{ 
+            cart,
+            cartAmount: cart.length  
+         }}>
             {children}
         </CartContext.Provider>
     )
