@@ -29,6 +29,7 @@ export const CartContext = createContext({} as CartContextData)
 
 function CartProvider({children}: CartProviderProps) {
     const [cart, setCart] = useState<CartProps[]>([]);
+    const [total, setTotal] = useState("");
 
     function addItemCart(newItem: ProdutosProps) {
         const indexItem = cart.findIndex(item => item.id === newItem.id);
@@ -38,6 +39,7 @@ function CartProvider({children}: CartProviderProps) {
             cartList[indexItem].total = cartList[indexItem].amount * cartList[indexItem].price;
 
             setCart(cartList);
+            totalResultCart(cartList)
             return;
         }
 
@@ -47,8 +49,8 @@ function CartProvider({children}: CartProviderProps) {
             total: newItem.price
         }
 
-        setCart(produtos => [...produtos, data])
-
+        setCart(produtos => [...produtos, data]);
+        totalResultCart([...cart, data]);
     }
 
     function removeItemCart(product: CartProps) {
@@ -60,8 +62,20 @@ function CartProvider({children}: CartProviderProps) {
 
         const removeItem = cart.filter(item => item.id !== product.id);
         setCart(removeItem);
+        totalResultCart(removeItem);
     }
 
+    function totalResultCart(items: CartProps[]) {
+        const myCart = items;
+        const result = myCart.reduce((acc, obj) => {
+            return acc + obj.total
+        }, 0);
+        const resultFormated = result.toLocaleString("pt-BRL", {
+            style: "currency",
+            currency: "BRL"
+        })
+        setTotal(resultFormated);
+    }
 
     return (
         <CartContext.Provider value={{ 
