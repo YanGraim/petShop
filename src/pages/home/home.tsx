@@ -2,6 +2,7 @@ import { useEffect, useState, useContext } from "react";
 import { api } from "../../services/api";
 import { BsCartPlus } from "react-icons/bs";
 import { CartContext } from "../../contexts/CartContext";
+import toast from "react-hot-toast";
 
 
 export interface ProdutosProps {
@@ -24,6 +25,15 @@ export function Home() {
         getProdutos();
     }, [])
 
+    function handleAddCartItem(produto: ProdutosProps) {
+      toast.success("Produto adicionado no carrinho.", {
+        style: {
+          color: "purple"
+        }
+      })
+      addItemCart(produto)
+    }
+
     return (
         <div>
             <main className="w-full max-w-7xl px-4 mx-auto">
@@ -41,7 +51,7 @@ export function Home() {
                                 currency: "BRL"
                               })}
                             </strong>
-                          <button className="bg-purple-900 p-1 rounded cursor-pointer" onClick={() => addItemCart(produto)}>
+                          <button className="bg-purple-900 p-1 rounded cursor-pointer" onClick={() => handleAddCartItem(produto)}>
                             <BsCartPlus size={20} color="#fff"/>
                           </button>
                         </div>
