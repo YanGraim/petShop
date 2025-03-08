@@ -27,7 +27,7 @@ export function Home() {
     return (
         <div>
             <main className="w-full max-w-7xl px-4 mx-auto">
-                <h1 className="font-bold text-3xl mb-4 mt-10 text-center italic text-purple-700 select-none">Produtos em alta</h1>
+                <h1 className="font-bold text-3xl mb-4 mt-20 text-center italic text-purple-700 select-none">Produtos em alta</h1>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {produtos.map((produto) => (

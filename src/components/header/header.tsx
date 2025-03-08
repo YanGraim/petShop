@@ -7,7 +7,7 @@ import { FiShoppingCart } from "react-icons/fi";
 export function Header() {
     const { cartAmount } = useContext(CartContext);
     return (
-        <header className="w-full bg-green-700 px-2">
+        <header className="w-full bg-green-700 px-2 fixed top-0">
             <nav className="w-full max-w-7xl  h-16 flex items-center justify-between mx-auto px-5">
                 <Link className="text-3xl text-white font-bold italic" to={"/"}>
                     PetShop

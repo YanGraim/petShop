@@ -7,7 +7,7 @@ export function Cart() {
     const { cart, total, addItemCart, removeItemCart } = useContext(CartContext);
     return (
         <main className="w-full max-w-7xl px-4 mx-auto">
-            <h1 className="text-center font-bold text-3xl italic text-purple-700 my-4">
+            <h1 className="text-center font-bold text-3xl italic text-purple-700 mt-20">
                 Meu Carrinho
             </h1>
 
@@ -46,7 +46,7 @@ export function Cart() {
                 </section>
             ))}
             {cart.length !== 0 && (
-                <p className="font-bold text-zinc-900 mt-4">Total: {total}</p>
+                <p className="font-bold text-zinc-900 my-6">Total: {total}</p>
             )}
         </main>
 
