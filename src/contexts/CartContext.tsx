@@ -8,6 +8,7 @@ interface CartContextData {
     cartAmount: number;
     addItemCart: (newItem: ProdutosProps) => void;
     removeItemCart: (product: CartProps) => void;
+    total: string;
 }
 
 
@@ -82,7 +83,8 @@ function CartProvider({children}: CartProviderProps) {
             cart,
             cartAmount: cart.length,
             addItemCart,
-            removeItemCart
+            removeItemCart,
+            total
          }}>
             {children}
         </CartContext.Provider>
