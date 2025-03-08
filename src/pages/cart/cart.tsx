@@ -30,23 +30,23 @@ export function Cart() {
                     })}</strong>
 
                     <div className="flex items-center justify-center gap-2">
-                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full" onClick={() => removeItemCart(item)}>
+                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full cursor-pointer" onClick={() => removeItemCart(item)}>
                             -
                         </button>
                         {item.amount}
-                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full" onClick={() => addItemCart(item)}>
+                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full cursor-pointer" onClick={() => addItemCart(item)}>
                             +
                         </button>
                     </div>
 
-                    <strong className="float-right">SubTotal: {item.total.toLocaleString("pt-BR", {
+                    <strong className="float-right ml-3">SubTotal: {item.total.toLocaleString("pt-BR", {
                         style: "currency",
                         currency: "BRL"
                     })}</strong>
                 </section>
             ))}
             {cart.length !== 0 && (
-                <p className="font-bold mt-4">Total: {total}</p>
+                <p className="font-bold text-zinc-900 mt-4">Total: {total}</p>
             )}
         </main>
 
