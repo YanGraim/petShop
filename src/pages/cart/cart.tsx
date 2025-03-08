@@ -30,11 +30,11 @@ export function Cart() {
                     })}</strong>
 
                     <div className="flex items-center justify-center gap-2">
-                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full">
+                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full" onClick={() => removeItemCart(item)}>
                             -
                         </button>
                         {item.amount}
-                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full">
+                        <button className="bg-purple-500 px-2 text-white font-medium flex items-center justify-center rounded-full" onClick={() => addItemCart(item)}>
                             +
                         </button>
                     </div>

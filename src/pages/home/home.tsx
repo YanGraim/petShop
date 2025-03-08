@@ -24,9 +24,6 @@ export function Home() {
         getProdutos();
     }, [])
 
-    function handleAddCartItem(produto: ProdutosProps) {
-      addItemCart(produto);
-    }
     return (
         <div>
             <main className="w-full max-w-7xl px-4 mx-auto">
@@ -44,7 +41,7 @@ export function Home() {
                                 currency: "BRL"
                               })}
                             </strong>
-                          <button className="bg-purple-900 p-1 rounded cursor-pointer" onClick={() => handleAddCartItem(produto)}>
+                          <button className="bg-purple-900 p-1 rounded cursor-pointer" onClick={() => addItemCart(produto)}>
                             <BsCartPlus size={20} color="#fff"/>
                           </button>
                         </div>
