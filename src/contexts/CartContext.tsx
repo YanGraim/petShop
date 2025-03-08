@@ -71,7 +71,7 @@ function CartProvider({children}: CartProviderProps) {
         const result = myCart.reduce((acc, obj) => {
             return acc + obj.total
         }, 0);
-        const resultFormated = result.toLocaleString("pt-BRL", {
+        const resultFormated = result.toLocaleString("pt-BR", {
             style: "currency",
             currency: "BRL"
         })

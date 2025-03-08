@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 export function Cart() {
-    const { cart } = useContext(CartContext);
+    const { cart, total } = useContext(CartContext);
     return (
         <main className="w-full max-w-7xl px-4 mx-auto">
             <h1 className="text-center font-bold text-3xl italic text-purple-700 my-4">
@@ -46,7 +46,7 @@ export function Cart() {
                 </section>
             ))}
             {cart.length !== 0 && (
-                <p className="font-bold mt-4">Total: R$ 60,00</p>
+                <p className="font-bold mt-4">Total: {total}</p>
             )}
         </main>
 
