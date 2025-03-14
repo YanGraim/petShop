@@ -20,7 +20,19 @@ export function Details() {
 
     return (
         <div className="mt-25">
-            <main className="w-full max-w-7xl mx-auto px-4"></main>
+            <main className="w-full max-w-7xl mx-auto px-4">
+                {produto && (
+                    <section className="w-full">
+                        <div className="flex">
+                            <img className="flex-1 w-full max-h-72 object-contain" src={produto?.cover} alt={produto?.title} />
+                            <div className="flex-1">
+                                <p>{produto?.title}</p>
+                                <p>{produto?.description}</p>
+                            </div>
+                        </div>
+                    </section>
+                )}
+            </main>
         </div>
     )
 }

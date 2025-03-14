@@ -3,84 +3,84 @@
         {
             "id": 1,
             "title": "Ração para Cachorro Pedigree Raças Pequenas 10,1Kg",
-            "subtitle": "Pedigree com Fortivil: uma combinação cientificamente balanceada de multi-nutrientes e óleo de girassol, que ajuda a manter os cães sempre saudáveis. Óleo de Girassol: rico em ácidos graxos (ômega-3), que promovem maciez e brilho aos pêlos. Zinco: essencial para a manutenção de uma pele saudável. Vitaminas do complexo B: garantem o excelente crescimento dos pêlos. Biotina: promovem uma perfeita renovação dos pêlos. Vitamina E: garante uma vida longa aos cães. Levedura de cerveja: fonte de vitaminas do complexo B, que mantém os pêlos sedosos e brilhantes. Diferença percebida em até 8 semanas.",
+            "description": "Pedigree com Fortivil: uma combinação cientificamente balanceada de multi-nutrientes e óleo de girassol, que ajuda a manter os cães sempre saudáveis. Óleo de Girassol: rico em ácidos graxos (ômega-3), que promovem maciez e brilho aos pêlos. Zinco: essencial para a manutenção de uma pele saudável. Vitaminas do complexo B: garantem o excelente crescimento dos pêlos. Biotina: promovem uma perfeita renovação dos pêlos. Vitamina E: garante uma vida longa aos cães. Levedura de cerveja: fonte de vitaminas do complexo B, que mantém os pêlos sedosos e brilhantes. Diferença percebida em até 8 semanas.",
             "price": 135.90,
             "cover": "https://imgs.search.brave.com/SseOd-zUfXKbNRGl-XQdg019z9aAIurMEDeeoj-pIX0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzQwMHg0MDAvMTA5/NS8xMDk1MjIxL3By/b2R1dG8vMjU5MzQ1/NDQ2L3BlZC1lc3Mt/cmMtcGVxLXgxNG0z/bXlya2suanBn"
         },
         {
             "id": 2,
             "title": "Ração Golden Fórmula Cães Adultos Raças Pequenas Frango e Arroz Mini Bits 1 kg",
-            "subtitle": "Ração Golden Raças Pequenas para cães adultos sabor frango e arroz Mini Bits é ideal para raças de cachorros adultos de pequeno porte. Seus grãos de tamanho reduzido facilitam a mastigação e a deglutição do alimento por parte do seu animal de estimação.",
+            "description": "Ração Golden Raças Pequenas para cães adultos sabor frango e arroz Mini Bits é ideal para raças de cachorros adultos de pequeno porte. Seus grãos de tamanho reduzido facilitam a mastigação e a deglutição do alimento por parte do seu animal de estimação.",
             "price": 21.90,
             "cover": "https://imgs.search.brave.com/tDb6uVg6_xH_SiJPwWv4pHKI_8q_ob5StI_ZqwdZ6hA/rs:fit:360:283:1:0/g:ce/aHR0cHM6Ly9jb2Jh/c2kudnRleGltZy5j/b20uYnIvYXJxdWl2/b3MvaWRzLzkzOTIx/MS0xOTQtMTk0L3Jh/Y2FvLWdvbGRlbi1m/b3JtdWxhLWNhZXMt/YWR1bHRvcy1yYWNh/cy1wZXF1ZW5hcy1m/cmFuZ28tYXJyb3ot/bWluaS1iaXRzLTM2/MjYyNzktMWtnLWxh/ZG8uanBnP3Y9NjM4/MTI3NjQwNTY0Njcw/MDAw"
         },
         {
             "id": 3,
             "title": "Ração Seca Origens Class Carne e Frango para Cães Adultos",
-            "subtitle": "A Ração Seca Origens Premium Especial Class Carne e Frango para Cães Adultos é uma linha de alimentos premium que oferece a melhor nutrição para seu pet, aumentando a absorção e o aproveitamento dos nutrientes.",
+            "description": "A Ração Seca Origens Premium Especial Class Carne e Frango para Cães Adultos é uma linha de alimentos premium que oferece a melhor nutrição para seu pet, aumentando a absorção e o aproveitamento dos nutrientes.",
             "price": 173.61,
             "cover": "https://imgs.search.brave.com/a9ko30-Avuh5pvYU7uOtre4r3k0iuu-zT6N9b7LSnV4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWJjZGFyYWNhby5j/b20uYnIvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDMvT1JJ/R0VOU19DTEFTU19D/QUVTX0FEVUxUT1Nf/Q0FSTkVfRlJBTkdP/X0ZSVERJUi5wbmcu/d2VicA"
         },
         {
             "id": 4,
             "title": "Ração Cachorro Quatree Gourmet Raças Pequenas Adulto 10,1Kg",
-            "subtitle": "A Ração Cachorro Quatree Gourmet é indicada para cães de raças pequenas adultos. Sua composição é rica em proteínas de origem animal, proporcionando maior digestibilidade e uma pelagem bonita e saudável.",
+            "description": "A Ração Cachorro Quatree Gourmet é indicada para cães de raças pequenas adultos. Sua composição é rica em proteínas de origem animal, proporcionando maior digestibilidade e uma pelagem bonita e saudável.",
             "price": 126.99,
             "cover": "https://imgs.search.brave.com/RjAaybxl-pWfK9ZReIYFgQjg_ParDJY2NiqKYdMHtG0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF84OTkyMjkt/TUxVNzI1NjYzODk1/ODJfMTEyMDIzLVgu/anBn"
         },
         {
             "id": 5,
             "title": "Ração Premium Dog Chow 15Kg",
-            "subtitle": "Uma ração premium balanceada com ingredientes de alta qualidade para garantir saúde e vitalidade ao seu cão.",
+            "description": "Uma ração premium balanceada com ingredientes de alta qualidade para garantir saúde e vitalidade ao seu cão.",
             "price": 249.90,
             "cover": "https://imgs.search.brave.com/-pENZgxeZwcwiQ99ydOXx6WNbuXbxCWEq9zcfn6qCh8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFLamF4cVBsYkwu/anBn"
         },
         {
             "id": 6,
             "title": "Ração Seca Royal Canin Mini Adult 2Kg",
-            "subtitle": "Fórmula especialmente desenvolvida para cães de raças pequenas, promovendo saúde e longevidade.",
+            "description": "Fórmula especialmente desenvolvida para cães de raças pequenas, promovendo saúde e longevidade.",
             "price": 89.90,
             "cover": "https://imgs.search.brave.com/9ilrXIQRzVj6yf4ATynxg-UvfSRCdVqSyDf5TVZlGtE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pby5j/b252ZXJ0aWV6LmNv/bS5ici9tL3BldGNh/bXAvc2hvcC9wcm9k/dWN0cy9pbWFnZXMv/MzI4OC9tZWRpdW0v/cmFjYW8tcm95YWwt/Y2FuaW4tbWluaS1h/ZHVsdC1wYXJhLWNh/ZXMtYWR1bHRvcy1k/ZS1yYWNhcy1wZXF1/ZW5hcy1jb20tMTAt/bWVzZXMtb3UtbWFp/cy1kZS1pZGFkZS0y/LTUta2ctMjI3MjVf/MzQ3My5qcGc"
         },
         {
             "id": 7,
             "title": "Ração Gold Dog Adult 12Kg",
-            "subtitle": "Ração completa para cães adultos, com nutrientes que auxiliam na manutenção de uma pelagem saudável e energia equilibrada.",
+            "description": "Ração completa para cães adultos, com nutrientes que auxiliam na manutenção de uma pelagem saudável e energia equilibrada.",
             "price": 199.90,
             "cover": "https://imgs.search.brave.com/D_3Cry2EznbVdwhoGVDHrbVoE8QjlV0InypOOcb0Tu4/rs:fit:360:283:1:0/g:ce/aHR0cHM6Ly93d3cu/Y2FzYWRvcHJvZHV0/b3IuY29tLmJyL21l/ZGlhL2NhdGFsb2cv/cHJvZHVjdC9jL2Ev/Y2FwdHVyYXJfNC5q/cGc_b3B0aW1pemU9/aGlnaCZiZy1jb2xv/cj0yNTUsMjU1LDI1/NSZmaXQ9Ym91bmRz/JmhlaWdodD00NTAm/d2lkdGg9NDUwJmNh/bnZhcz00NTA6NDUw"
         },
         {
             "id": 8,
             "title": "Ração Natural Pet 8Kg",
-            "subtitle": "Alimento natural e equilibrado para cães, com ingredientes selecionados para uma digestão saudável e pelagem brilhante.",
+            "description": "Alimento natural e equilibrado para cães, com ingredientes selecionados para uma digestão saudável e pelagem brilhante.",
             "price": 159.90,
             "cover": "https://imgs.search.brave.com/tcbCvGenN9RRcldXMyeKnrezdojIJI6DVjTNEPdXeUo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzQwMHg0MDAvMjAz/LzIwMzYxMi9wcm9k/dXRvLzIwOTkzMTcy/Mi9nb2xkZW4tc2Vs/ZWNhby1uYXR1cmFs/LWNhZXMtYWR1bHRv/cy1wb3J0ZS1wZXF1/ZW5vLXNhYm9yLWZy/YW5nby1jb20tYmF0/YXRhLWRvY2UtMS1w/bmctemt0a2drLmpw/Zw"
         },
         {
             "id": 9,
             "title": "Ração Holistic Dog Adult 10Kg",
-            "subtitle": "Ração holística que prioriza ingredientes naturais para promover a saúde integral do seu pet.",
+            "description": "Ração holística que prioriza ingredientes naturais para promover a saúde integral do seu pet.",
             "price": 189.90,
             "cover": "https://imgs.search.brave.com/1B1JzUIOGMjLmzpkV5UOKIyEHa9_Ju3eYkkXjvSzkp4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c3BlY2lhbGRvZy5j/b20uYnIvYXNzZXRz/L3VwbG9hZHMvcHJv/ZHV0b3Mvc3BlY2lh/bC1kb2ctY2FybmUt/YWR1bHRvcy1mbG5h/NC0yMDIxMTIyMzEz/NTI0Ni5wbmc"
         },
         {
             "id": 10,
             "title": "Ração Seca Formula Vital Can 5Kg",
-            "subtitle": "Desenvolvida para oferecer alta digestibilidade e nutrição completa, garantindo vitalidade ao seu cão.",
+            "description": "Desenvolvida para oferecer alta digestibilidade e nutrição completa, garantindo vitalidade ao seu cão.",
             "price": 129.90,
             "cover": "https://imgs.search.brave.com/menZVs6S5TI9w2r_46GXTjH0cfJTWvAJb8smp4Bkdqg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzEwNjExMTMv/cmFjYW9fZm9ybXVs/YV9uYXR1cmFsX2Nh/b18yXzVrZ19saWZl/X2FkdWx0b19yYWNh/c19wZXF1ZW5hc180/MzY3XzFfYjkwN2M2/OGQ2NWM3ODMyMTZh/YmY5ZmE4YTIwNWVj/NTEuanBn"
         },
         {
             "id": 11,
             "title": "Ração Super Premium Dog Food 7Kg",
-            "subtitle": "Ração super premium com fórmula avançada para cães, garantindo saúde, energia e uma pelagem sedosa.",
+            "description": "Ração super premium com fórmula avançada para cães, garantindo saúde, energia e uma pelagem sedosa.",
             "price": 219.90,
             "cover": "https://imgs.search.brave.com/nIIiilNjtrGAd0h1_Am_D-quVLyaHvNa8JgzSwDvTE8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF83/MTMzOTEtTUxVNzMy/MTM0NTcxNzNfMTIy/MDIzLU8ud2VicA"
         },
         {
             "id": 12,
             "title": "Ração Especial Fit Dog 6Kg",
-            "subtitle": "Uma ração especial para cães que buscam uma dieta balanceada e ingredientes selecionados para manter a forma e a saúde.",
+            "description": "Uma ração especial para cães que buscam uma dieta balanceada e ingredientes selecionados para manter a forma e a saúde.",
             "price": 149.90,
             "cover": "https://imgs.search.brave.com/F9TseBU2pPrupZ4BWx6A5nKFbxk9lLQNH8tcevsGv14/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGNkbi5jb20u/YnIvaW1nL2ltZ19w/cm9kLzc0Mjk0My8x/ODBfcmFjYW9fYm9t/Z3V5X3ByZW1pdW1f/Y2Flc19hZHVsdG9z/XzY2NDNfMV8xZjU2/YjQ3NWZlMmIyYTY4/Y2IxNmZjZjA0NzA1/NTllZi5qcGc"
         }
