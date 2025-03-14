@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
 import { api } from "../../services/api";
 import { ProdutosProps } from "../home/home";
+import { BsCartPlus } from "react-icons/bs";
 
 
 export function Details() {
@@ -23,11 +24,18 @@ export function Details() {
             <main className="w-full max-w-7xl mx-auto px-4">
                 {produto && (
                     <section className="w-full">
-                        <div className="flex">
+                        <div className="flex flex-col lg:flex-row">
                             <img className="flex-1 w-full max-h-72 object-contain" src={produto?.cover} alt={produto?.title} />
                             <div className="flex-1">
-                                <p>{produto?.title}</p>
-                                <p>{produto?.description}</p>
+                                <p className="font-bold text-2xl mt-4 mb-2">{produto?.title}</p>
+                                <p className="my-4">{produto?.description}</p>
+                                <strong className="text-purple-800/90">{produto?.price.toLocaleString("pt-BR", {
+                                    style: "currency",
+                                    currency: "BRL"
+                                })}</strong>
+                                <button className="bg-purple-900 p-1 rounded cursor-pointer ml-3" >
+                                    <BsCartPlus size={20} color="#fff"/>
+                                </button>
                             </div>
                         </div>
                     </section>
