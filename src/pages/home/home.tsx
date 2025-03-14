@@ -3,6 +3,7 @@ import { api } from "../../services/api";
 import { BsCartPlus } from "react-icons/bs";
 import { CartContext } from "../../contexts/CartContext";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 
 export interface ProdutosProps {
@@ -42,8 +43,10 @@ export function Home() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {produtos.map((produto) => (
                       <section className="w-full flex flex-col h-full p-4" key={produto.id}>
-                        <img className="w-full rounded-lg max-h-70 mb-2 object-contain" src={produto.cover} alt={produto.title} />
-                        <p className="font-medium mt-1 mb-2">{produto.title}</p>
+                        <Link to={`/product/${produto.id}`}>
+                          <img className="w-full rounded-lg max-h-70 mb-2 object-contain" src={produto.cover} alt={produto.title} />
+                          <p className="font-medium mt-1 mb-2">{produto.title}</p>
+                        </Link>
                         <div className="mt-auto flex items-center gap-3">
                             <strong className="text-purple-700/80 select-none">
                               {produto.price.toLocaleString("pt-BR", {
