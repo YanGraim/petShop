@@ -4,6 +4,7 @@ import { api } from "../../services/api";
 import { ProdutosProps } from "../home/home";
 import { BsCartPlus } from "react-icons/bs";
 import { CartContext } from "../../contexts/CartContext";
+import toast from "react-hot-toast";
 
 
 export function Details() {
@@ -22,6 +23,11 @@ export function Details() {
     }, [id])
 
     function handleAddItem(produto: ProdutosProps) {
+        toast.success("Produto adicionado no carrinho.", {
+            style: {
+              color: "purple"
+            }
+          })
         addItemCart(produto);
     }
 
