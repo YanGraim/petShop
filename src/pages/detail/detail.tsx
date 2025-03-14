@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react"
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { api } from "../../services/api";
 import { ProdutosProps } from "../home/home";
 import { BsCartPlus } from "react-icons/bs";
@@ -11,6 +11,7 @@ export function Details() {
     const { id } = useParams();
     const [produto, setProduto] = useState<ProdutosProps>();
     const { addItemCart } = useContext(CartContext);
+    const navigate = useNavigate();
 
 
     useEffect(() => {
@@ -29,6 +30,7 @@ export function Details() {
             }
           })
         addItemCart(produto);
+        navigate("/cart");
     }
 
     return (
